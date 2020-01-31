@@ -1,0 +1,147 @@
+<html>
+    <head><link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <style>
+   body{
+       background-color: lightgrey;
+   }
+   
+   .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  margin-top:100px;
+   color: black;
+   text-align: center;
+}
+   </style>
+
+</head>
+    <body>
+        <form>
+<section class="testimonial " id="testimonial">
+    <div class="container">
+        <div class="row">From  BharatMatrimony</div>
+        <div class="row"><img src="ll.png" height="8%" width="15%"></div>
+        <div class="row ">
+            <h style="margin-left: 76%;"><b>Great!You have completed <font size="6%"><h>60%</h></font size="20%"></h>
+        </div>
+        <div class="row">
+            <div class="col-md-4 py-5  text-white text-center " style="background-color: limegreen;">
+                <div class=" ">
+                    <div class="card-body">
+                        <img src="img.png" style="width:30%">
+                     
+                        <p>Not only good career,or<br>
+                            handsome.Most<br>
+                        importantly-deserving of<br>
+                    you!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 py-5 border" style="background-color: white;">
+                <h4 class="pb-4">Tell us about your personal details</h4>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-11">
+                            <label style="color: gray;font-family:'Poppens',sans-serif ;">
+                                Marital Status
+                            </label>
+                            <input type="button"  value="Never Married" id="form_uname" onclick="never()" style="background:transparent; color: gray;  border: 1px solid lightgray; font-size: 20px;" >
+                            <input type="button"  value="widowed" id="form_uname" onclick="widowed()"style="background:transparent; color: gray; border: 1px solid lightgray; font-size: 20px;" >
+                            <input type="button"  value="Divorced" id="form_uname" onclick="divorced()" style="background:transparent; color: gray; border: 1px solid lightgray; font-size: 20px;" >
+                            <input type="button"  value="Awaiting divorce" id="form_uname" onclick="divorce()" style="background:transparent; color: gray; border: 1px solid lightgray; font-size: 20px;" >
+                         
+                        </div>
+                        <div class="form-group col-md-8">
+                            &nbsp;&nbsp;&nbsp;
+                            <label style="color: gray; font-family:'Poppens',sans-serif ;">
+                                Height</label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input list="height" name="myBrowser" />
+              
+                                <datalist id="height">
+                                  <option value="4ft 6in/137cms">
+                                  <option value="4ft 7in/139cms">
+                                  <option value="4ft 8in/142cms">
+                                  <option value="4ft 9in/144cms">
+                                  <option value="5ft/152cms">
+                                  <option value="5ft 1in/154cms">
+                                  <option value="5ft 2in/157cms">
+                                  <option value="5ft 3in/160cms">
+                                  <option value="5ft 4in/162cms">
+                                  <option value="5ft 5in/165cms">
+                                  <option value="5ft 6in/167cms">
+                                  <option value="5ft 7in/170cms">
+                                  <option value="5ft 8in/172cms">
+                                  <option value="5ft 9in/175cms">
+                                  <option value="6ft/182cms">
+                                    <option value="6ft 1in/185">
+                                      <option value="6ft 2in/185">
+                                        <option value="6ft 3in/190">
+                                          <option value="6ft 4in/193">
+                                            <option value="6ft 5in/195">
+                                          <option value="6ft 6in/198">
+                                            <option value="6ft 7in/200">
+                                              <option value="6ft 8in/203">
+                                                <option value="6ft 9`in/205">
+                                                  <option value="7ft /213"></option>
+                                                </option>
+                                            </option>
+                                </datalist>
+                        </div>
+                      </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                            <label style="color: gray; font-family:'Poppens',sans-serif ;">
+                                Family Status
+                            </label>
+                            <input type="button"  value="Middle class" id="form_uname"  style="background:transparent; color: gray; border: 1px solid lightgray; font-size: 20px;" >
+                            <input type="button"  value="Upper middle class" id="form_uname" onclick="widowed()"style="background:transparent; color: gray; border: 1px solid lightgray; font-size: 20px;" >
+                            <input type="button"  value="Rich" id="form_uname" style="background:transparent; color: gray; border: 1px solid lightgray; font-size: 20px;" >
+                            <input type="button"  value="Affluent" id="form_uname" style="background:transparent; color: gray; border: 1px solid lightgray; font-size: 20px;" >
+                         </div>
+                        <div class="form-group col-md-6">
+                                  
+                            <label style="color: gray;font-family:'Poppens',sans-serif ; "> 
+                                Family Type
+                                </label>
+                                &nbsp;&nbsp;
+                                <input type="button"  value="Joint" id="form_uname"  style="background:transparent; color: gray; border: 1px solid lightgray; font-size: 20px;" >
+                                <input type="button"  value="Nuclear" id="form_uname" onclick="widowed()"style="background:transparent; color: gray;border: 1px solid lightgray; font-size: 20px;" >
+                                
+                        </div>
+                        <div class="form-group col-md-10">
+                            <label style="color: gray; font-family:'Poppens',sans-serif ;">
+                                Family Values
+                              </label>
+                              <input type="button"  value="Orthododx" id="form_uname"  style="background:transparent; color: gray; border: 1px solid lightgray; font-size: 20px;" >
+           <input type="button"  value="Traditional" id="form_uname" onclick="widowed()"style="background:transparent; color: gray;border: 1px solid lightgray; font-size: 20px;" >
+           <input type="button"  value="Moderate" id="form_uname" style="background:transparent; color: gray;border: 1px solid lightgray; font-size: 20px;" >
+           <input type="button"  value="Liberal" id="form_uname" style="background:transparent; color: gray;border: 1px solid lightgray; font-size: 20px;" >
+                        </div>
+                        <div class="form-group col-md-10">
+                            <label style="color: gray; font-family:'Poppens',sans-serif ;">
+                                Any Disability
+                              </label>
+                              <input type="button"  value="Normal" id="form_uname"  style="background:transparent; color: gray;border: 1px solid lightgray; font-size: 20px;" >
+                              <input type="button"  value="Physically challenged" id="form_uname" onclick="widowed()"style="background:transparent; color: gray;border: 1px solid lightgray; font-size: 20px;" >
+                            
+                             
+                    </div>
+                    <div class="form-row">
+                        <input type="submit"  value="Continue"  onclick="cont()" style="margin-left: 10%;border-radius: 10px; font-family: arial;  display: inline-block;cursor: pointer;
+                         background-color: #ff7c0b; font-size: 22px;border-radius: 10px; color: white; padding: 15px 110px 16px 110px;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+</form>
+</body>
+</html>
+  
